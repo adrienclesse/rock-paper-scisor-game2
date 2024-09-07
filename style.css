@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.png');
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #baeaf4;
+  text-shadow: 
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000, /* Black border effect */
+  0 0 5px #fff, 
+  0 0 10px #fff, 
+  0 0 20px #fff, 
+  0 0 40px #0ff, 
+  0 0 80px #0ff, 
+  0 0 90px #0ff, 
+  0 0 100px #0ff, 
+  0 0 150px #0ff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #baeaf4;
+  text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000, /* Black border effect */
+        0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 20px #fff, 
+        0 0 40px #0ff, 
+        0 0 80px #0ff, 
+        0 0 90px #0ff, 
+        0 0 100px #0ff, 
+        0 0 150px #0ff; /* Glowing neon effect */
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h3{
+  font-size: 24px;
+}
+
+#button-game {
+  background-color: rgba(255, 255, 255, 0.8); /* White color with 50% opacity */
+            border: 1px solid black; /* Optional: Add a border to make the div more visible */
+            padding: 20px; /* Optional: Add some padding */
+}
+
+
+
+#button-game {
+ 
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(46, 21, 21, 0.1);
+  text-align: center;
+}
+
+.button {
+  width: 110px;
+  height: 110px;
+  margin: 12px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.enemy {
+  width: 110px;
+  height: 110px;
+  margin: 12px;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.3);
+}
+
+#info, #losing, #draw {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+#enemy {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#replay-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#replay {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#replay:hover {
+  transform: scale(1.2);
+
+}
+

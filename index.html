@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css"></style>
+    <title>rock,paper,scissor</title>
+</head>
+<body>
+    <h1>Let's play Rock Paper Scissor</h1>
+    <h2>  Chose one attack, see the result and then click the replay button for a second try !</h2>
+    <div id="background-game">
+        <div id="button-game">
+            <h3>Chose your hand :</h3>
+            <img src="rock.png" class="button" id="rock"></img>
+            <img src="paper.png" class="button" id="paper"></img>
+            <img src="scissors.png" class="button" id="scissor"></img>
+            <p id="info"></p> <p id="losing"></p> <p id="draw"></p>
+            <h3>Ennemy's hand :</h3><img src="fist.png" class="enemy" id="enemy" alt="Enemy Choice">
+            
+            <script src="script.js"></script>
+        </div>
+    </div>
+    <div id="replay-container">
+         <img src="replay-but.png" class="button" id="replay" onclick="reloadPage()">
+    </div>  
+</body>
+</html>
